@@ -1,27 +1,21 @@
 # Learning Python with Portland Data Science Group
-The goal of this quickstart guide is to get you up and running with Python as quickly as possible so you can participate in the Portland Data Science Group. This will be done in four steps:
+This quickstart guide will get you up and running with Python so you can participate in the Portland Data Science Group. This will be done in three steps:
 
 1. Set up a Python development environment
-1. Choose a beginner resource to learn Python syntax
+1. Choose a resource to learn Python
 1. Get started with `pandas` (Python Data Analysis Library)
-1. 
 
-## <a name="python-references"></a>Python References
+This isn't a comprehensive tutorial, just a starting point. Your goal here is to go from your first `Hello world!` program to what Chris Moffitt calls the [_plateau of productivity_](http://pbpython.com/plateau-of-productivity.html). Many people who start programming for the first time get stuck in the "trough of disillusionment" stage of learning, and struggle to break out of it. 
 
-This section assumes that you have zero programming knowledge. Your goal here is to go from your first `Hello world!` program to what Chris Moffitt calls the ["plateau of productivity"](http://pbpython.com/plateau-of-productivity.html).
+Be prepared to spend a few hours of your own time each week on Step 2, which should be ongoing until you completely finish one of the learning resources. To avoid getting stuck, work through each example by actually typing them out in your Python interpreter — it's important to develop an intuition and muscle memory for programming, so that you can build speed and confidence in your skills as you learn.
 
-Many people who start coding for the first time get stuck in the "trough of disillusionment" stage of learning, and struggle to break out of it. I pushed a boulder up this same hill many times, only to fall back into the trough and give up for a while. But after a bit of a learning curve, I can attest that it has certainly been worth all the effort, not only in time Python has saved me, but also in a sense of accomplishment.
+## 1. Set up a Python development environment
+The very first thing you'll want to do is download the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3, and start up an IDE of your choice via Anaconda Navigator. I recommend _Spyder_ or _Jupyter Notebook_ or _JupyterLab_ for running through exercises.
 
-### <a name="why-python"></a>Why Python?
-* It's easy to learn and a great first coding language. You can start start building your own projects within a few weeks!
-* It's a mature language with many libraries and helpful documentation.
-* It's used for many applications such as scientific computing, web development, data analysis, and machine learning.
+__Note:__ Anaconda 5.1.0 is missing a dependency for _JupyterLab_. If you want to use it, open the Anaconda prompt and type `conda install nodejs` before trying to launch _JupyterLab_.
 
-### <a name="beginner-novice"></a>Beginner-Novice
-Whether you're learning to code for the first time or an experienced programmer looking to add Python to your repertoir of languages, these resources will get you up and running quickly. The very first thing you'll want to do is download the [Anaconda distribution](https://www.anaconda.com/download/) of Python 3, and start up an IDE of your choice for one of the resources below. I recommend _JupyterLab_ or _Spyder_
-
-#### <a name="learning-python-for-the-first-time"></a>Learning Python for the First Time
-There are five main resources recommended by the Python community, all of them free. You only need to choose one and stick with it, but as we are all blessed with different minds, you'll want to try several to see which is more suited to your learning style. As my electrical engineering professor once told me, *"Find a voice that speaks to you."*
+## 2. Choose resource to learn Python
+There are five main resources recommended by the Python community, all of them free. You only need to choose one and stick with it, but as we are all blessed with different minds, you'll want to try several to see which is more suited to your learning style.
 
 1. [Automate the Boring Stuff with Python](http://inventwithpython.com/#automate) by Al Sweigart
 1. [Dive into Python 3](http://www.diveintopython3.net/) by Mark Pilgrim
@@ -29,11 +23,30 @@ There are five main resources recommended by the Python community, all of them f
 1. [Python 101](http://python101.pythonlibrary.org/index.html) ([ebook version here](https://leanpub.com/python_101)) by Michael Driscoll
 1. [The Official Python Tutorial](https://docs.python.org/3/tutorial/index.html) by the Python Software Foundation
 
-All of them cover the basics of Python, but don't completely overlap with each other in the topics they cover. The main difference is that 1 & 2 get you off the ground faster, giving you the knowledge to start writing practical programs very quickly, while 3-5 take longer to get through, but are more comprehensive and focus on helping you build a solid foundation in Python. It's completely fine to go with one of the faster resources and fill in the gaps later when you can accommodate it.
+All of them cover the basics of Python, but don't completely overlap with each other in the topics they cover. The main difference is that 1 & 2 get you off the ground faster, giving you the knowledge to start writing practical programs very quickly, while 3-5 are like textbooks and take longer to get through, but are more comprehensive and focus on helping you build a solid foundation in Python. It's completely fine to go with one of the faster resources and fill in the gaps later when you can accommodate it.
 
-I like "Automate the Boring Stuff with Python" the best, which took me about 50 hours (and numerous tries) to get through. At some point early on, you'll start to get the itch to write real programs. That's perfectly normal, and I encourage you to start applying what you've learned using a project-based approach — finding problems and solving them with Python is the best way to remember what you've learned so far, and ultimately get better at programming, rather than spending all your time reading and watching videos.
+I like "Automate the Boring Stuff with Python" the best, which took me about 50 hours (and numerous tries) to get through completely. At some point early on, you'll start to get the itch to write real programs. That's perfectly normal, and I encourage you to start applying what you've learned using a project-based approach — finding problems and solving them with Python is the best way to remember what you've learned so far, and ultimately get better at programming, rather than spending all your time reading and watching videos.
 
 The only resource I recommend avoiding is "Learn Python the Hard Way" by Zed Shaw, mainly because it's outdated.
+
+## 3. Get started with `pandas`
+Once you've done a few chapters of learning Python and start to feel comfortable working in it, you can dive into `pandas` using [Greg Reda's 3-part introduction](http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/) — it should make sense to anyone who's used Excel or SQL. Once again, you'll want to start up your Python interpreter and type out the examples to get a better understanding of what `pandas` is doing and how to do it yourself.
+
+If you found this introduction too easy or didn't leave you with a strong impression of how to work with `pandas`, check out Tom Augspurger's 7-part series on writing modern idiomatic `pandas` code:
+
+1. [Modern Pandas](https://tomaugspurger.github.io/modern-1.html)
+1. [Method Chaining](https://tomaugspurger.github.io/method-chaining.html)
+1. [Indexes](https://tomaugspurger.github.io/modern-3-indexes.html)
+1. [Fast Pandas](https://tomaugspurger.github.io/modern-4-performance.html)
+1. [Tidy Data](https://tomaugspurger.github.io/modern-5-tidy.html)
+1. [Visualization](https://tomaugspurger.github.io/modern-6-visualization.html)
+1. [Time Series](https://tomaugspurger.github.io/modern-7-timeseries.html)
+
+---
+
+## Additional Resources
+
+### Beginner-Novice
 
 #### <a name="code-like-a-pythonista"></a>[Code Like a Pythonista: Idiomatic Python](http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html)
 As you learn Python, you'll start to understand why styling and whitespace are important. David Goodger's "Code Like a Pythonista" and similarly [PEP8](https://www.python.org/dev/peps/pep-0008/) are important companions to have so that you get into the habit writing readable code. While you can afford to skip over some bits of Python as a language to learn at a later time, you can never afford to write crappy code because it is the opposite of saving time.
