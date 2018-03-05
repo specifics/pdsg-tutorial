@@ -29,8 +29,13 @@ I like "Automate the Boring Stuff with Python" the best, which took me about 50 
 
 The only resource I recommend avoiding is "Learn Python the Hard Way" by Zed Shaw, mainly because it's outdated.
 
-## 3. Get started with `pandas`
+## 3. Get started with `pandas` (Python Data Analysis Library)
 Once you've done a few chapters of learning Python and start to feel comfortable working in it, you can dive into `pandas` using [Greg Reda's 3-part introduction](http://gregreda.com/2013/10/26/intro-to-pandas-data-structures/) — it should make sense to anyone who's used Excel or SQL. Once again, you'll want to start up your Python interpreter and type out the examples to get a better understanding of what `pandas` is doing and how to do it yourself.
+
+Once you feel that you understand how `pandas` works, try doing some excercises on your own. I recommend one of Chris Moffitt's examples below:
+
+- [Excel “Filter and Edit” - Demonstrated in Pandas](http://pbpython.com/excel-filter-edit.html)
+- [Learn More About Pandas By Building and Using a Weighted Average Function](http://pbpython.com/weighted-average.html)
 
 If you found this introduction too easy or didn't leave you with a strong impression of how to work with `pandas`, check out Tom Augspurger's 7-part series on writing modern idiomatic `pandas` code:
 
@@ -58,19 +63,19 @@ As [SICP](https://mitpress.mit.edu/sicp/full-text/book/book-Z-H-7.html) wisely s
 Or as [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) simply says: __Readability counts.__
 
 #### <a name="pbpython"></a>[Practical Business Python](http://pbpython.com/)
-PB Python is a monthly-ish blog by Chris Moffitt ([@chris1610](https://github.com/chris1610/pbpython)) where he talks about how to apply Python in an everyday business setting. This is the best resource I've found for contextualizing how Python can be used as a powerful tool for enhancing or eliminating tasks that are normally done using Excel or Word. It's also a great place to get started with `pandas` (Python Data Analysis Library) for the first time, which should be of interest for Test/Instrumentation Engineers and Flight Test Analysts.
+PB Python is a monthly-ish blog by Chris Moffitt ([@chris1610](https://github.com/chris1610/pbpython)) where he talks about how to apply Python in an everyday business setting. This is the best resource I've found for contextualizing how Python can be used as a powerful tool for enhancing or eliminating tasks that are normally done using Excel or Word. It's also a great place to get started with some small `pandas` projects to understand how to use it for everyday data analysis.
 
 Head into the [PB Python Archive](http://pbpython.com/archives.html) and start with the article from 5 October 2014, ["Using Sets for Data Analysis"](http://pbpython.com/data-analysis-with-sets.html). As you move forward, go through the articles in chronological order. Chris does a fantastic job of building upon each one until you have a formidable set of tools to tackle a variety of problems!
 
-**Note:** For planning purposes, each PBpy exercise can take 1-2 hours to get through, depending on the topic and your skill level.
+**Note:** For planning purposes, each article can take 1-2 hours to get through, depending on the topic and your skill level.
 
 #### <a name="regex101"></a>[Regular Expressions 101](https://regex101.com/) by Firas Dib
-Regular expressions are a powerful tool, but can be hard to dive into while learning Python. This regex tester and repository is a great resource that can get the regex you need into your Python applications, while also explaining how the specific regex works.
+Regular expressions are a powerful tool, but can be hard to dive into while learning Python. This regex tester and repository is a great resource that can get the regex you need into your Python applications, while also explaining how a specific regex works.
 
 #### <a name="learning-python"></a>"Learning Python, 5th Ed." by Mark Lutz
 This text is perhaps the most comprehensive resource for beginner Python users, and covers some topics that aren't in any of the [Learning Python for the First Time](#learning-python) resources, such as interfacing Python with C/C++. This is of particular interest for engineers that work with embedded systems that require C/C++, or anyone that desires the computational power of C/C++ while keeping the ease of development in Python.
 
-Since this book is an absolute behemoth of over 1,600 pages, I recommend it mainly as a companion reference for looking up concepts & examples that aren't explained thoroughly by any of the free resources. For even more exercises, Mark Lutz made his [live course materials](http://learning-python.com/training) available for free.
+Since this book is a behemoth of over 1,600 pages, I recommend it mainly as a companion reference for looking up concepts & examples that aren't explained thoroughly by any of the other resources. For even more exercises, Mark Lutz made his [live course materials](http://learning-python.com/training) available for free.
 
 #### <a name="python-in-a-nutshell"></a>"Python in a Nutshell" by Martelli-Ravenscroft-Holden
 
